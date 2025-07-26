@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   // Dynamic base URL for dev/prod
-  base: process.env.NODE_ENV === 'production' ? '/VUE-APP/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/OJT-profile/' : '/',
   
   plugins: [
     vue(),
